@@ -3,21 +3,21 @@
           <div class="row row-30">
             <div class="col-md-4 col-xl-5">
               <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light">  </a>  <!-- src="Images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="Images/agency/logo-retina-inverse-280x74.png 2x" -->
-                <p style="color: #FFF">We are a non-profit company that seeks to help tourists who want to visit some places in El Salvador, providing information about the most interesting and beautiful places in this wonderful little country.</p>
+                <p style="color: #FFF">We are a non-profit company that seeks to help people trying to learn a new language, providing lessons and information that help them reach that goal.</p>
                 <!-- Rights-->
-                <p class="rights" style="color: #FFF"><span>©  </span><span class="copyright-year">2020</span><span> </span><span>Trips SV</span><span>. </span><span>All Rights Reserved.</span></p>
+                <p class="rights" style="color: #FFF"><span>©  </span><span class="copyright-year"><?php echo date("Y") ?></span><span> </span><span>Golden Bobbies</span><span>. </span><span>All Rights Reserved.</span></p>
               </div>
             </div>
             <div class="col-md-4"></div>
-            <div class="col-md-4 col-xl-3">
+            <div class="col-md-4 col-xl-3"><!--  -->
               <h5 style="color: #FFF">Contact us</h5>
               <dl class="contact-list">
                 <dt style="color: #FFF">Address:</dt>
-                <dd style="color: #FFF">Colegio Salesiano Santa Cecilia</dd>
+                <dd style="color: #FFF">4044 Mount Olive Road, Atlanta</dd>
               </dl>
               <dl class="contact-list">
                 <dt style="color: #FFF">E-mail:</dt>
-                <dd><a href="mailto:#">trips.sv2020@gmail.com</a></dd>
+                <dd><a href="mailto:#">contactus@bobbieslanguage.com</a></dd>
               </dl>
               <dl class="contact-list">
                 <dt style="color: #FFF">Phone number:</dt>

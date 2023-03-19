@@ -11,12 +11,12 @@ fetchPlaces();
                 let customURL = place.name;
                 let URL = customURL.split(' ').join('+');
                 template += `
-                <div class="col-lg-4 col-md-6 col-sm-12 p-3 image">
+                <div class="col-lg-4 col-md-4 col-sm-12 p-3 image">
                     <div class="card card-image" style="background-image: url(data:image/jepg;base64,${place.image}); background-position: center top; background-repeat: no-repeat; background-attachment: scroll;  background-size: fit;">
                         <div class="text-white text-center align-items-center card-bg py-5 px-4">
                             <div class="col-md-12 col-lg-12 col-sm-12">
-                                <h5 class="text-white" ><i class="fas fa-chart-pie"></i>${place.location} </h5>
-                                <h3 class="card-title pt-2"><strong>${place.name}</strong></h3>
+                                <h5 class="text-white > ${place.location}</h5>
+                                <h3 class="card-title pt-2 title-clamp"><strong>${place.name}</strong></h3>
                                 <div class="line-clamp"> 
                                 <p>
                                     ${place.description}

@@ -1,5 +1,5 @@
 <nav class="navbar  navbar-expand-sm navbar-dark bg-primary">
-  <a class="navbar-brand" href="index.php" style="font-size: 130%;">El Salvador</a>
+  <a class="navbar-brand" href="index.php" style="font-size: 130%;">Bobbies Language</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -8,7 +8,7 @@
     <ul class="navbar-nav mr-auto">
 
       <li class="nav-item">
-        <a class="nav-link" href="catEN.php">Categories</a>
+        <a class="nav-link" href="catEN.php">Courses</a>
       </li>
  
       
@@ -28,10 +28,9 @@
             Manage
           </a>
           <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
-                <a class=\"dropdown-item\"  href=\"addSites.php\">Add Sites</a>
-                <a class=\"dropdown-item\" href=\"PAQUETEen/paquete.html\">Create Package</a>
-                <a class=\"dropdown-item\" href=\"editSitios.php\">Modify Sites</a>
-                <a class=\"dropdown-item\" href=\"editCats.html\">Create Category</a>
+                <a class=\"dropdown-item\"  href=\"addSites.php\">Create lesson</a>
+                <a class=\"dropdown-item\" href=\"editSitios.php\">Modify Lesson</a>
+                <a class=\"dropdown-item\" href=\"editCats.html\">Manage Courses</a>
          </div>
           </li>
           ";
@@ -50,33 +49,27 @@
           
        } 
      ?>
-      <li class="nav-item">
-        <a class="nav-link" href="home.php">Packages</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="../PTCes/index.php">Spanish</a>
-      </li>
+      
+      
        <li class="nav-item">
       </li>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-
-       <?php 
-
+   </ul> 
+   <?php
       include('Backend/db.php');
-
-      
-
       if (isset($_SESSION['usuario']))
       {
         $usuario = mysqli_real_escape_string($connection, utf8_decode($_SESSION['usuario']));
         
         echo "
+        <form class=\"form-inline\">
         <li class=\"nav-item\">
         <a class=\"nav-link\">$usuario</a>
-        </li>";
+        </li>
+        </form>
+        ";
 
         echo "<img src=\"Fotos/user3.png\" style=\"width:3%;\">";
       }
       ?>
-
   </div>
 </nav>

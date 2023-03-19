@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trips SV</title>
+    <title>Manage Courses</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" type="image/jpg" href="LoginPTC/images/logo.jpg">
 </head>
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a href="index.php" class="navbar-brand">Edit categories</a>
+        <a href="index.php" class="navbar-brand">Edit Courses</a>
 
         <ul class="navbar-nav ml-auto">
             <form class="form-inline my-2 my-lg-0">
-                <input type="search"  id="search" class="form-control mr-md-2" placeholder="Buscar categorías">
+                <input type="search"  id="search" class="form-control mr-md-2" placeholder="search courses">
                 <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </ul>
@@ -27,10 +28,10 @@
                         <form id="task-form">
                             <input type="hidden" id="taskID">
                             <div class="form-group">
-                                <input type="text" id="name" placeholder="Nombre de la categoría" class="form-control">
+                                <input type="text" id="name" placeholder="Course name" class="form-control">
                             </div>
                             <div class="form-group">
-                                <textarea id="description" cols="30" rows="10" class="form-control" placeholder="Descripción"></textarea>
+                                <textarea id="description" cols="30" rows="10" class="form-control" placeholder="Description"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary btn-block text-center">Save</button>
                         </form>

@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SV Trips</title>
-    <link rel="icon" type="image/png" href="LoginPTC/images/logoicono.png">
+    <title>Lessons</title>
+    <link rel="icon" type="image/png" href="LoginPTC/images/logo.jpg">
 </head>
 <body> 
     <?php include("Tienda/templates/cabecera6.php") ?>
     <input type="hidden" id="category" value="<?php echo $_GET['cat']; ?>">
     <div class="container py-3">
+        <h2><?php echo $_GET['cat']; ?></h2>
         <div class="row" id="places">
           
 

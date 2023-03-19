@@ -8,7 +8,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Edit or Delete Sites</title>
+<title>Edit or Delete Lessons</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/editSitios.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
@@ -17,6 +17,7 @@
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="icon" type="image/jpg" href="LoginPTC/images/logo.jpg">
 </head>
 <body>
 
@@ -31,7 +32,7 @@
             <div class="table-title">
                 <div class="row">
                     <div class="col-sm-6">
-                        <h2><b>Edit Sites</b></h2>
+                        <h2><b>Edit Lessons</b></h2>
                     </div>
                     <div class="col-sm-6">
                         
@@ -52,8 +53,8 @@
                         <th style="font-size: 3vh;">Name</th>
                         <th style="font-size: 3vh;">Description</th>
                         <th style="font-size: 3vh;">Rating</th>
-                        <th style="font-size: 3vh;">Location</th>
-                        <th style="font-size: 3vh;">Category</th>
+                        <th style="font-size: 3vh;">KeyWord</th>
+                        <th style="font-size: 3vh;">Course</th>
                         <th style="font-size: 3vh;">Information</th>
                         <th style="font-size: 3vh;">Select</th>
                         <th></th>

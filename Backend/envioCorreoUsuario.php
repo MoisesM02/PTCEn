@@ -8,17 +8,17 @@
 //Para usar en Windows descomenten la línea de abajo (Línea 9) y comenten la línea de Linux (Línea 11)
 // require 'C:\xampp\htdocs\PTCes\Backend\Exception.php';
 //Linux
-require '/var/www/html/PTCes/Backend/Exception.php';
+require '/var/www/html/PTCEn/Backend/Exception.php';
 
 /* The main PHPMailer class. */
 //Para usar en Windows descomenten la línea de abajo (Línea 14) y comenten la línea de Linux (Línea 15)
 // require 'C:\xampp\htdocs\PTCes\Backend\PHPMailer.php';
-require '/var/www/html/PTCes/Backend/PHPMailer.php';
+require '/var/www/html/PTCEn/Backend/PHPMailer.php';
 
 /* SMTP class, needed if you want to use SMTP. */
 //Para usar en Windows descomenten la línea de abajo (Línea 20) y comenten la línea de Linux (Línea 21)
 // require 'C:\xampp\htdocs\PTCes\Backend\SMTP.php';
-require '/var/www/html/PTCes/Backend/SMTP.php';
+require '/var/www/html/PTCEn/Backend/SMTP.php';
 
     if(isset($_POST["username"])){
         $username = mysqli_real_escape_string($connection, utf8_decode($_POST["username"]));

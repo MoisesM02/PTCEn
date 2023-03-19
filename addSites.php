@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/testis.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Añadir sitios</title>
+    <link rel="icon" type="image/jpg" href="LoginPTC/images/logo.jpg">
+    <title>Create lesson</title>
 </head>
 <body>
     <div id="alert"></div>
@@ -18,13 +19,13 @@
         <div class="row">
             <div class="col-lg-6 col-sm-12">
                 <div class="form-group p-3">
-                     <p><label for="nombre"> <h4>Place Name</h4></label></p>
+                     <p><label for="nombre"> <h4>Lesson's name</h4></label></p>
                      <input type="text" name="name" id="nombre" placeholder="Nombre" class="form-control txt"  required onpaste="return false">
                  </div>
                  <div class="row pl-3">
                      <div class="col-lg-4 col-sm-4 col-md-3">
                          <div class="form-group pt-3">
-                             <label for="category"><h4>Category</h4></label>
+                             <label for="category"><h4>Course</h4></label>
                         </div>
                      </div>
                      <div class="col-lg-7 col-sm-6 col-md-7">
@@ -34,7 +35,7 @@
                      </div>
                  </div>   
                  <div class="form-group p-3">
-                    <p><label for="depart"><h4>Location</h4></label></p>
+                    <p><label for="depart"><h4>Keyword</h4></label></p>
                     <input type="text" name="location" id="location" class="form-control txt">
                 </div>
             </div>
@@ -56,7 +57,7 @@
                         </textarea>
             </div>
 
-        <button type="submit" class="btn btn-danger p-3" name="enviar" id="addEvent" style="pading-right:2%; width:15%; margin-left:82%; margin-bottom: 20px;">AddSite</button>
+        <button type="submit" class="btn btn-danger p-3" name="enviar" id="addEvent" style="pading-right:2%; width:15%; margin-left:82%; margin-bottom: 20px;">Add Lesson</button>
 
     </form>
     <?php include('includes/footer.php') ?>

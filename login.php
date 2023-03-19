@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html lang="en">
 
 	<head>
-		<link rel="icon" type="image/png" href="LoginPTC/images/logoicono.png">
+		<link rel="icon" type="image/jpg" href="LoginPTC/images/logo.jpg">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta charset="utf-8" />
 		<meta name="description" content="User login page" />

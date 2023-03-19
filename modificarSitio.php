@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/testis.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Añadir sitios</title>
+    <link rel="icon" type="image/jpg" href="LoginPTC/images/logo.jpg">
+    <title>Modify lesson</title>
 </head>
 <body>
 
@@ -45,18 +46,18 @@
            
             <div class="col-lg-6 col-sm-12">
                 <div class="form-group p-3">
-                    <p><label for="nombre"> <h4>ID seleccionado</h4></label></p><br>
+                    <p><label for="nombre"> <h4>Selected ID</h4></label></p><br>
                     <label style="font-size: 18px;"><?php echo $cod; ?></label>
                     <input type="hidden" name="id" value="<?php echo $cod; ?>">
                  </div>
                 <div class="form-group p-3">
-                     <p><label for="nombre"> <h4>Name of the place</h4></label></p>
+                     <p><label for="nombre"> <h4>Lesson's name</h4></label></p>
                      <input type="text" name="name" value="<?php echo $datos[0]['name']; ?>" id="nombre" placeholder="Nombre" class="form-control txt"  required onpaste="return false">
                  </div>
                  <div class="row pl-3">
                      <div class="col-lg-4 col-sm-4 col-md-3">
                          <div class="form-group pt-3">
-                             <label for="category"><h4>Category</h4></label>
+                             <label for="category"><h4>Course</h4></label>
 
                         </div>
                      </div>
@@ -79,14 +80,14 @@
                      </div>
                  </div>   
                  <div class="form-group p-3">
-                    <p><label for="depart"><h4>Location</h4></label></p>
+                    <p><label for="depart"><h4>KeyWord</h4></label></p>
                     <input type="text" name="location" value="<?php echo $datos[0]['ubicacion']; ?>" id="location" class="form-control txt">
                 </div>
                 
             </div>
             <div class="col-lg-6 col-sm-12 col-ms-8">
             <div class="form-group p-3">
-                        <p><label for="description"><h4>Site description</h4></label></p>
+                        <p><label for="description"><h4>Description</h4></label></p>
                         <textarea name="description" id="description" placeholder="Describe brevemente la información del sitio" class="form-control" cols="50">
                         <?php echo $datos[0]['descripcion']; ?>
                         </textarea>
@@ -99,7 +100,7 @@
             </div>
         </div>
         <div class="form-group p-3">
-                <p><label for="description"><h4>Site information</h4></label></p>
+                <p><label for="description"><h4>Content</h4></label></p>
                 <textarea name="info" id="info"  class="ckeditor" placeholder="Describe brevemente el sitio turístico" class="form-control" cols="30" rows="10">
                 <?php echo $datos[0]['info']; ?>
                 </textarea>

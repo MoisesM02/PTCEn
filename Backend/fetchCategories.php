@@ -9,7 +9,8 @@
         while($row = mysqli_fetch_array($result)){
             $json[]= array(
                 'id' => $row['id'],
-                'category' => utf8_encode(ucfirst($row['name']))
+                'category' => utf8_encode(ucfirst($row['name'])),
+                'description' => utf8_encode($row['description'])
             );
         }
         $jsonstring = json_encode($json);

@@ -34,6 +34,13 @@ html div {
 	-webkit-box-orient: vertical;
 	overflow: hidden;
 }
+.title-clamp{
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
 .see {
 	color: #fff;
 }

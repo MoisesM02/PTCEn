@@ -66,7 +66,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Register</title>
-	<link rel="icon" type="image/png" href="LoginPTC/images/logoicono.png">
+	<link rel="icon" type="image/jpg" href="LoginPTC/images/logo.jpg">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>

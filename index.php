@@ -15,8 +15,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Explore El Salvador</title> 
-    <link rel="icon" type="image/png" href="LoginPTC/images/logoicono.png">    
+    <title>Learn a new language</title> 
+    <link rel="icon" type="image/png" href="LoginPTC/images/logo.jpg">    
    
 </head>
 <body>
@@ -44,56 +44,56 @@
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <div class="view">
-        <img class="d-block w-100 slider-slide"  src="Fotos/tazumal.jpg"
+        <img class="d-block w-100 slider-slide"  src="Fotos/carrusel1.jpg"
           alt="First slide" width="400 px" height="500 px">
         <div class="mask rgba-black-light"></div>
       </div>
       <div class="carousel-caption">
-          <h3 class="h3-responsive" style="color:#FFF">Tazumal</h3>
+          <h3 class="h3-responsive" style="color:#05400">Share your experience</h3>
       </div>
     </div>
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <img class="d-block w-100 slider-slide"  src="Fotos/eltincoo.jpg"
+        <img class="d-block w-100 slider-slide"  src="Fotos/carrusel2.png"
           alt="Second slide" width="400 px" height="500 px">
         <div class="mask rgba-black-strong"></div>
       </div>
       <div class="carousel-caption">
-          <h3 class="h3-responsive" style="color:#FFF">El Tunco</h3>
+          <h3 class="h3-responsive" style="color:#05400">Make friends all around the world</h3>
       </div>
     </div>
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <img class="d-block w-100 slider-slide" src="Fotos/Coatepeque.jpg"
-          alt="Third slide" width="400 px" height="500 px">
+        <img class="d-block w-100 slider-slide" src="Fotos/carrusel3.webp"
+          alt="Third slide" width="400 px" height="500 px" type="image/webp">
         <div class="mask rgba-black-slight"></div>
       </div>
       <div class="carousel-caption">
-        <h3 class="h3-responsive" style="color:#FFF">Coatepeque Lake</h3>
+        <h3 class="h3-responsive" style="color:#05400">Better opportunities</h3>
       </div>
     </div>
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <img class="d-block w-100 slider-slide"  src="Fotos/cerroVerde.jpg"
+        <img class="d-block w-100 slider-slide"  src="Fotos/carrusel4.jpg"
           alt="Third slide" width="400 px" height="500 px">
         <div class="mask rgba-black-slight"></div>
       </div>
       <div class="carousel-caption">
-        <h3 class="h3-responsive" style="color:#FFF">Cerro Verde</h3>
+        <h3 class="h3-responsive" style="color:#05400">Learn new skills</h3>
       </div>
     </div>
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <img class="d-block w-100 slider-slide"  src="Fotos/zonte.jpg"
+        <img class="d-block w-100 slider-slide"  src="Fotos/carrusel5.jpg"
           alt="Third slide" width="400 px" height="500 px">
         <div class="mask rgba-black-slight"></div>
       </div>
       <div class="carousel-caption">
-        <h3 class="h3-responsive" style="color:#FFF">El Zonte beach</h3>
+        <h3 class="h3-responsive" style="color:#FFF">Career opportunities</h3>
       </div>
     </div>
   </div>
@@ -160,36 +160,36 @@
           <div class="row">
             <div class="col-md-4 cats-slides">
               <div class="card mb-2">
-                <img class="card-img-top cats-slide" src="Fotos/eltiunco.jpg"
+                <img class="card-img-top cats-slide" src="Fotos/gramatica-basica.jpg"
                   alt="Card image cap" width="45 px" height="250">
                 <div class="card-body">
-                  <h4 class="card-title" align="center" >Beaches</h4>
-                  <p class="card-text clamp" align="justify">Discover the best beaches of El Salvador, a country with a beautiful coast bathed by the Pacific Ocean, home of privileged beaches for surfing and other jewels hidden among spectacular natural scenarios.</p>
-                  <a class="btn btn-primary " style="color: #FFF" href="mostrarSitios.php?cat=beach">View more</a>
+                  <h4 class="card-title" align="center" >Basic english grammar</h4>
+                  <p class="card-text clamp" align="justify">Here you will find the basics of grammar to learn english.</p>
+                  <a class="btn btn-primary " style="color: #FFF" href="mostrarSitios.php?cat=Basic English Grammar">View more</a>
                 </div>
               </div>
             </div>
 
             <div class="col-md-4 clearfix d-none d-md-block cats-slides">
               <div class="card mb-2">
-                <img class="card-img-top cats-slide" src="Fotos/coate.jpg"
+                <img class="card-img-top cats-slide" src="Fotos/gramatica-intermedia.jpg"
                   alt="Card image cap" width="45 px" height="250">
                 <div class="card-body">
-                  <h4 class="card-title" align="center">Lakes and lagoons</h4>
-                  <p class="card-text clamp" align="justify">El Salvador is one of the countries that is located above the Caribbean plate, making it the owner of more than 30 lakes and lagoons, short but abundant due to its geography. These seismic events give fame to our country, so we invite you to embark on a journey that will take you through its most beautiful corners.</p>
-                  <a  class="btn btn-primary" style="color: #FFF" href="mostrarSitios.php?cat=Lakes and lagoons">View more</a>
+                  <h4 class="card-title" align="center">Intermediate English Grammar</h4>
+                  <p class="card-text clamp" align="justify">Once completed the basic grammar, you can take more advanced lessons.</p>
+                  <a  class="btn btn-primary" style="color: #FFF" href="mostrarSitios.php?cat=Intermediate English Grammar">View more</a>
                 </div>
               </div>
             </div>
 
             <div class="col-md-4 clearfix d-none d-md-block cats-slides">
               <div class="card mb-2">
-                <img class="card-img-top cats-slide" src="Fotos/sanantonio.jpg"
+                <img class="card-img-top cats-slide" src="Fotos/gramatica-avanzada.jpg"
                   alt="Card image cap" width="45 px" height="250">
                 <div class="card-body">
-                  <h4 class="card-title" align="center">Mountains</h4>
-                  <p class="card-text clamp" align="justify">The relief of El Salvador is fascinating and is one of the main beauties of this small but at the same time great country. You can appreciate it along its geography, imposing volcanoes and mountains, as well as hills, valleys, lakes, coasts and beaches that adorn every corner of this wonderful land.</p>
-                  <a class="btn btn-primary" style="color: #FFF" href="mostrarSitios.php?cat=Mountains">View more</a>
+                  <h4 class="card-title" align="center">Advanced English Grammar</h4>
+                  <p class="card-text clamp" align="justify">Here you'll learn many new advanced topics from english grammar.</p>
+                  <a class="btn btn-primary" style="color: #FFF" href="mostrarSitios.php?cat=Advanced English Grammar">View more</a>
                 </div>
               </div>
             </div>
@@ -204,11 +204,11 @@
           <div class="row">
             <div class="col-md-4 cats-slides">
               <div class="card mb-2">
-                <img class="card-img-top cats-slide" src="Fotos/arqueo.jpg"
+                <img class="card-img-top cats-slide" src="Fotos/carrusel-cursos1.jpg"
                   alt="Card image cap" width="45 px" height="250">
                 <div class="card-body">
-                  <h4 class="card-title" align="center">Archaeological sites</h4>
-                  <p class="card-text clamp" align="justify">It refers to the process where people travel to historical or archaeological sites of interest. The reason why it is called Archaeological tourism, is due to the fact that they often make visits to archaeological sites where places or monuments date back to antiquity or prehistory, such as the pyramids of Egypt or in this case, El Tazumal.</p>
+                  <h4 class="card-title" align="center">Basic French Grammar</h4>
+                  <p class="card-text clamp" align="justify">French can be quite difficult, but here we can help you understand the basis.</p>
                   <a class="btn btn-primary" href="mostrarSitios.php?cat=Archaeological sites" style="color: #FFF">View more</a>
                 </div>
               </div>
@@ -216,11 +216,11 @@
 
             <div class="col-md-4 clearfix d-none d-md-block cats-slides">
               <div class="card mb-2">
-                <img class="card-img-top cats-slide" src="Fotos/necro.jpg"
+                <img class="card-img-top cats-slide" src="Fotos/carrusel-cursos2.jpg"
                   alt="Card image cap" width="45 px" height="250">
                 <div class="card-body">
-                  <h4 class="card-title" align="center">Necrotourism</h4>
-                  <p class="card-text clamp" align="justify">Necroturism is the new fashion in many Latin American countries and now it is also in El Salvador, so soon it is sure that many tourists are going to come to this country to enjoy Necroturism, a very different way of tourism, because it is about visiting cemeteries and enjoy this visit, always with the greatest respect. The activity have been taking place for almost ten years, inaugurated on August 27, 2008.</p>
+                  <h4 class="card-title" align="center">Intermediate French Grammar</h4>
+                  <p class="card-text clamp" align="justify">Moving into steeper terrain, the intermediate course reinforce the basis of french grammar.</p>
                   <a class="btn btn-primary" href="mostrarSitios.php?cat=necrotourism" style="color: #FFF">View more</a>
                 </div>
               </div>
@@ -228,11 +228,11 @@
 
             <div class="col-md-4 clearfix d-none d-md-block cats-slides">
               <div class="card mb-2">
-                <img class="card-img-top cats-slide" src="Fotos/agro.jpg"
+                <img class="card-img-top cats-slide" src="Fotos/carrusel-cursos3.jpeg"
                   alt="Card image cap" width="45 px" height="250">
                 <div class="card-body">
-                  <h4 class="card-title" align="center">Agrotourism</h4>
-                  <p class="card-text clamp" align="justify">Several agricultural cooperatives and community organizations in rural areas began to see tourism as an option in the face of the agricultural crisis and the abandonment of policies that forgot the social and economic importance of rural areas.</p>
+                  <h4 class="card-title" align="center">Advanced French Grammar</h4>
+                  <p class="card-text clamp" align="justify">Master french grammar and become fluent on it. Learning many new topics and tuning the last details.</p>
                   <a class="btn btn-primary" href="mostrarSitios.php?cat=Agrotourism" style="color: #FFF">View more</a>
                 </div>
               </div>
@@ -248,11 +248,11 @@
           <div class="row">
             <div class="col-md-4 cats-slides">
               <div class="card mb-2">
-                <img class="card-img-top cats-slide" src="Fotos/eco.jpg"
+                <img class="card-img-top cats-slide" src="Fotos/carrusel-cursos4.jpg"
                   alt="Card image cap" width="45 px" height="250">
                 <div class="card-body">
-                  <h4 class="card-title" align="center">Ecotourism</h4>
-                  <p class="card-text clamp" >This is a sustainable development initiative, which through land use planning based on natural areas interconnected by activities.</p>
+                  <h4 class="card-title" align="center">Basic English Speaking</h4>
+                  <p class="card-text clamp" >Speaking can be the hardest part of learning a new language, but we can help you!</p>
                   <a class="btn btn-primary"href="mostrarSitios.php?cat=ecotourism" style="color: #FFF">View more</a>
                 </div>
               </div>
@@ -260,11 +260,11 @@
 
             <div class="col-md-4 clearfix d-none d-md-block cats-slides">
               <div class="card mb-2">
-                <img class="card-img-top cats-slide" src="Fotos/etno.jpg"
+                <img class="card-img-top cats-slide" src="Fotos/carrusel-cursos5.jpg"
                   alt="Card image cap" width="45 px" height="250">
                 <div class="card-body">
-                  <h4 class="card-title " align="center">Ethnotourism</h4>
-                  <p class="card-text clamp" align="justify" >It is specialized and directed tourism that is carried out in territories of ethnic groups for cultural, educational and recreational purposes that allows knowing cultural values, way of life, environmental management, customs of ethnic groups as well as aspects of their history.</p>
+                  <h4 class="card-title " align="center">Basic French Speaking</h4>
+                  <p class="card-text clamp" align="justify" >French is confusing at first, but here you will learn more about it.</p>
                   <a class="btn btn-primary" href="mostrarSitios.php?cat=ethno-tourism"style="color: #FFF">View more</a>
                 </div>
               </div>
@@ -272,11 +272,11 @@
 
             <div class="col-md-4 clearfix d-none d-md-block cats-slides">
               <div class="card mb-2">
-                <img class="card-img-top cats-slide" src="Fotos/comu.jpg"
+                <img class="card-img-top cats-slide" src="Fotos/carrusel-cursos6.jpg"
                   alt="Card image cap" width="45 px" height="250">
                 <div class="card-body">
-                  <h4 class="card-title" align="center"  >Community Tourism</h4>
-                  <p class="card-text clamp" align="justify" >It can be defined as: sharing the natural resources of a local community with visitors from home and overseas for the sustainable benefit of that local community whilst conserving the natural environment and respecting the way of life.</p>
+                  <h4 class="card-title" align="center"  >Advanced English Speaking</h4>
+                  <p class="card-text clamp" align="justify" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, autem.</p>
                   <a class="btn btn-primary"href="mostrarSitios.php?cat=Community tourism" style="color: #FFF">View more</a>
                 </div>
               </div>
@@ -294,9 +294,8 @@
     </section>
 
   </div>
-<br>
-<div id="map-example-container"></div>
-<input type="search" id="input-map" class="form-control" placeholder="Find your ideal site" />
+<!-- <div id="map-example-container"></div>
+<input type="search" id="input-map" class="form-control" placeholder="Find your ideal site" /> -->
 
 <style>
   #map-example-container {height: 500px};
@@ -305,10 +304,9 @@
 <script src="https://cdn.jsdelivr.net/npm/places.js@1.18.1"></script>
 <div class="p-5" style="position: absolute">
   <script>
-  maps();
+  //maps();
 </script>
 </div>
-<br><br><br><br><br>
 <head>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
@@ -329,14 +327,14 @@
       </div>
       <div class="carousel-item text-center p-4">
         <blockquote class="blockquote text-center">
-          <p class="mb-0"><i class="fa fa-quote-left"></i>" I love the price of the packages  "
+          <p class="mb-0"><i class="fa fa-quote-left"></i>" Amazing lessons!  "
           </p>
           <footer class="blockquote-footer">María Abrego</footer>
         </blockquote>
       </div>
       <div class="carousel-item text-center p-4">
         <blockquote class="blockquote text-center">
-          <p class="mb-0"><i class="fa fa-quote-left"></i>" This site helped me to find the best places on El Salvador. "
+          <p class="mb-0"><i class="fa fa-quote-left"></i>" This site helped me to learn a second language. "
           </p>
           <footer class="blockquote-footer">Julian Herrera</footer>
         </blockquote>

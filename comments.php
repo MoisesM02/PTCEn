@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/comments.css">
     <link rel="stylesheet" href="css/alertify.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="LoginPTC/images/logoicono.png">
+    <link rel="icon" type="image/jpg" href="LoginPTC/images/logo.jpg">
     
 
     <script src="js/jquery-3.4.1.min.js"></script>
@@ -23,7 +23,7 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comments</title>
+    <title>Lesson</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <style type="text/css">
@@ -62,7 +62,7 @@ session_start();
 
 </script>
 
-<!-- Comenzo de comentarios -->
+<!-- Comienzo de comentarios -->
 
  <h5>Add comments</h5>
  <div class="col-lg-8 col-md-10 col-sm-12 pb-2" id="commentsbox">
@@ -74,7 +74,7 @@ session_start();
  </div>
  </form>
  
-    <div class="comments-container">
+    <div class="comments-container mb-4 pb-4">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12" id="container">
 
